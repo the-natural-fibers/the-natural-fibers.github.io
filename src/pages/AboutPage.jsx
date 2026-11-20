@@ -144,7 +144,63 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* 4. Independent Research Commitment */}
+      {/* 4. Entity Fact Sheet — Source of Truth */}
+      <div className="bg-white rounded-3xl border border-[#e8ded1] p-8 sm:p-10 shadow-sm space-y-6">
+        <div>
+          <span className="text-xs font-bold uppercase tracking-widest text-[#14365d]">Source of Truth Fact Sheet</span>
+          <h2 className="font-serif text-3xl font-bold text-[#0c2340] mt-1 mb-2">
+            Entity Identification & Operational Standards
+          </h2>
+          <p className="text-sm text-[#4a5568] leading-relaxed">
+            Official machine-readable and human-verifiable entity attributes of The Natural Fibers brand archive.
+          </p>
+        </div>
+
+        <div className="overflow-x-auto rounded-2xl border border-[#e8ded1]">
+          <table className="w-full text-left border-collapse text-xs sm:text-sm">
+            <tbody className="divide-y divide-[#e8ded1] bg-white">
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] w-1/3 bg-[#faf8f5]/40">Legal Entity Name</td>
+                <td className="p-3.5 text-[#2d3748]">The Natural Fibers Botanical Research Collective</td>
+              </tr>
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] bg-[#faf8f5]/40">Canonical Entity Home</td>
+                <td className="p-3.5 text-[#2d3748]">
+                  <a href="https://the-natural-fibers.github.io/about" className="text-[#14365d] underline hover:text-[#2a5a46]">
+                    https://the-natural-fibers.github.io/about
+                  </a>
+                </td>
+              </tr>
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] bg-[#faf8f5]/40">Founding Date</td>
+                <td className="p-3.5 text-[#2d3748]">2026</td>
+              </tr>
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] bg-[#faf8f5]/40">Primary Research Scope</td>
+                <td className="p-3.5 text-[#2d3748]">Renewable Botanical Plant Fibers: Rattan, Bamboo, Jute, Seagrass, Hemp, Abaca</td>
+              </tr>
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] bg-[#faf8f5]/40">Taxonomic & Testing Framework</td>
+                <td className="p-3.5 text-[#2d3748]">Cellulose-Lignin Mechanics, Botanical Taxonomy, Cradle-to-Cradle Circular Lifecycle</td>
+              </tr>
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] bg-[#faf8f5]/40">Editorial Governance</td>
+                <td className="p-3.5 text-[#2d3748]">The Natural Fibers Editorial Collective (Zero Sponsorship Bias)</td>
+              </tr>
+              <tr className="hover:bg-[#faf8f5]/60 transition-colors">
+                <td className="p-3.5 font-bold text-[#0c2340] bg-[#faf8f5]/40">Official Open Repository</td>
+                <td className="p-3.5 text-[#2d3748]">
+                  <a href="https://github.com/the-natural-fibers/the-natural-fibers.github.io" target="_blank" rel="noopener noreferrer" className="text-[#14365d] underline hover:text-[#2a5a46]">
+                    github.com/the-natural-fibers/the-natural-fibers.github.io
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* 5. Independent Research Commitment */}
       <div className="p-8 rounded-3xl bg-[#0c2340] text-white text-center space-y-4">
         <h3 className="font-serif text-2xl font-bold !text-white text-white">An Independent Educational Guide</h3>
         <p className="text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed">

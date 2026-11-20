@@ -48,6 +48,56 @@ export default function BlogPostPage() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [article]);
 
+  // Dynamic Article Schema JSON-LD & Canonical for Entity SEO
+  useEffect(() => {
+    if (!article) return;
+
+    // 1. Inject or update Article JSON-LD Schema
+    const scriptId = 'article-jsonld-schema';
+    let scriptEl = document.getElementById(scriptId);
+    if (!scriptEl) {
+      scriptEl = document.createElement('script');
+      scriptEl.id = scriptId;
+      scriptEl.type = 'application/ld+json';
+      document.head.appendChild(scriptEl);
+    }
+
+    const articleUrl = `https://the-natural-fibers.github.io/blog/${article.slug}`;
+    const imgUrl = typeof article.imageUrl === 'string' && article.imageUrl.startsWith('http')
+      ? article.imageUrl
+      : `https://the-natural-fibers.github.io${article.imageUrl || '/Logo.jpg'}`;
+
+    const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id": `${articleUrl}#article`,
+      "headline": article.title,
+      "description": article.summary,
+      "image": imgUrl,
+      "author": {
+        "@id": "https://the-natural-fibers.github.io/#organization"
+      },
+      "publisher": {
+        "@id": "https://the-natural-fibers.github.io/#organization"
+      },
+      "datePublished": "2026-11-14T08:00:00+07:00",
+      "mainEntityOfPage": articleUrl,
+      "isPartOf": {
+        "@id": "https://the-natural-fibers.github.io/#website"
+      },
+      "inLanguage": "en-US",
+      "articleSection": article.category,
+      "keywords": [article.mainKeyword, article.fiberFamily, "natural fibers", "botanical materials"]
+    };
+
+    scriptEl.textContent = JSON.stringify(articleSchema, null, 2);
+
+    return () => {
+      const el = document.getElementById(scriptId);
+      if (el) el.remove();
+    };
+  }, [article]);
+
   const scrollToSection = (e, id) => {
     e.preventDefault();
     const el = document.getElementById(id);

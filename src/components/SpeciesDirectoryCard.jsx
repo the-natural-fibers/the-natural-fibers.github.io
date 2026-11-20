@@ -77,7 +77,7 @@ export default function SpeciesDirectoryCard({
           {material.imageUrl ? (
             <img
               src={material.imageUrl}
-              alt={material.name}
+              alt={`${material.name} botanical fiber specimen harvested for sustainable craft and architecture`}
               loading="lazy"
               className={`w-full h-full object-cover transition-transform duration-700 ease-out ${
                 !isMobile && isHovered ? 'scale-110' : 'scale-100'

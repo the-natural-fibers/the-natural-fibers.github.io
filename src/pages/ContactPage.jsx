@@ -160,15 +160,25 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 text-[#2a5a46] shrink-0 mt-0.5" />
+                <Mail className="w-4 h-4 text-[#14365d] shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-bold block text-[#0c2340]">Repository Domain</span>
-                  <span>the-natural-fibers.github.io</span>
+                  <span className="font-bold block text-[#0c2340]">Direct Research Email</span>
+                  <a href="mailto:curation@the-natural-fibers.org" className="hover:underline text-[#14365d]">
+                    curation@the-natural-fibers.org
+                  </a>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <ShieldCheck className="w-4 h-4 text-[#14365d] shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-[#2a5a46] shrink-0 mt-0.5" />
+                <div>
+                  <span className="font-bold block text-[#0c2340]">Official Entity Home</span>
+                  <span>the-natural-fibers.github.io/about</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <ShieldCheck className="w-4 h-4 text-[#2a5a46] shrink-0 mt-0.5" />
                 <div>
                   <span className="font-bold block text-[#0c2340]">Ethics Commitment</span>
                   <span>Zero sponsorship bias, zero data marketing</span>
