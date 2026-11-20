@@ -127,7 +127,7 @@ export default function HomePage() {
       icon: <BookOpen className="w-4 h-4" />,
       iconBg: "bg-[#eaf2f9]",
       iconColor: "text-[#14365d]",
-      title: "9 Illustrated Guides",
+      title: "Illustrated Field Guides",
       desc: "Clear articles detailing plant origins, harvesting cycles, and home uses."
     },
     {

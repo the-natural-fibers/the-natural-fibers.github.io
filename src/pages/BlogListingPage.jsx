@@ -185,7 +185,7 @@ export default function BlogListingPage() {
           </p>
         </div>
         <span className="text-xs font-semibold px-3 py-1 rounded-md bg-[#edf7f2] text-[#2a5a46] border border-[#2a5a46]/20 shrink-0">
-          9 Published Articles
+          {articlesData.length} Published Articles
         </span>
       </div>
     </div>

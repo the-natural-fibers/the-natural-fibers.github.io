@@ -32,10 +32,10 @@ export default function AboutPage() {
           About The Natural Fibers
         </div>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-[#0c2340] leading-tight">
-          From Earth's Plants to Handwoven Fibers.
+          About The Natural Fibers: Independent Botanical Material Archive
         </h1>
         <p className="text-base sm:text-lg text-[#4a5568] leading-relaxed">
-          The Natural Fibers is an independent educational website dedicated to plant-based materials. We share practical knowledge on the durability, traditional craft, and sustainable everyday use of natural fibers.
+          The Natural Fibers is an independent botanical material archive and open educational knowledge base founded in 2026. We research the cellular anatomy, tensile physics, and circular sustainability of renewable earth-grown plant fibers, translating empirical science into practical durability guides and craft preservation standards.
         </p>
       </div>
 
