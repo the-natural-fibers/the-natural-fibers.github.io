@@ -1,0 +1,117 @@
+import rattanThumb from '../assets/thumbnails/Rattan.jpg';
+import bambooThumb from '../assets/thumbnails/Bamboo.jpg';
+import juteThumb from '../assets/thumbnails/Jute.jpg';
+import seagrassThumb from '../assets/thumbnails/Seagrass.jpg';
+import hempThumb from '../assets/thumbnails/Hemp.jpg';
+import abacaThumb from '../assets/thumbnails/Abaca.jpg';
+
+export const materialsData = [
+  {
+    id: "rattan",
+    name: "Rattan",
+    botanicalName: "Calamus & Daemonorops",
+    family: "Arecaceae (Palm family)",
+    category: "Climbing Vine / Palm",
+    element: "earth",
+    imageUrl: rattanThumb,
+    shortDesc: "A solid, extremely flexible climbing palm native to tropical rainforests, renowned for its pliable core and durable skin.",
+    durabilityScore: 92,
+    flexibilityScore: 98,
+    moistureTolerance: "Moderate (Indoor / Covered)",
+    carbonRating: "A+ (Rapidly Regenerative)",
+    nativeRegions: ["Southeast Asia", "Indonesia", "Malaysia", "Philippines"],
+    keyApplications: ["Curved furniture framing", "Woven paneling", "Architectural screens", "Baskets"],
+    harvestCycle: "5 to 7 years",
+    badgeColor: "bg-[#7c482b] text-white"
+  },
+  {
+    id: "bamboo",
+    name: "Bamboo",
+    botanicalName: "Bambusoideae",
+    family: "Poaceae (True Grasses)",
+    category: "Giant Woody Grass",
+    element: "leaf",
+    imageUrl: bambooThumb,
+    shortDesc: "One of the fastest-growing plants on Earth with a hollow cylindrical culm that rivals structural steel in tensile strength.",
+    durabilityScore: 96,
+    flexibilityScore: 84,
+    moistureTolerance: "High (when properly treated)",
+    carbonRating: "A++ (Massive Carbon Sink)",
+    nativeRegions: ["East Asia", "Southeast Asia", "Latin America"],
+    keyApplications: ["Structural poles", "Split-weave lighting", "Flooring", "Bio-composite boards"],
+    harvestCycle: "3 to 4 years",
+    badgeColor: "bg-[#2a5a46] text-white"
+  },
+  {
+    id: "jute",
+    name: "Jute",
+    botanicalName: "Corchorus olitorius",
+    family: "Malvaceae (Mallow family)",
+    category: "Bast Fiber",
+    element: "water",
+    imageUrl: juteThumb,
+    shortDesc: "Dubbed the 'Golden Fiber', jute is extracted through clean water-retting of rain-fed annual plants, yielding soft, lustrous threads.",
+    durabilityScore: 78,
+    flexibilityScore: 90,
+    moistureTolerance: "Low to Moderate (Keep Dry)",
+    carbonRating: "A+ (100% Rain-fed)",
+    nativeRegions: ["Bengal Delta", "India", "Bangladesh"],
+    keyApplications: ["Textiles & Rugs", "Rope & Twine", "Hessian sacking", "Geotextiles"],
+    harvestCycle: "4 months (Annual crop)",
+    badgeColor: "bg-[#14365d] text-white"
+  },
+  {
+    id: "seagrass",
+    name: "Seagrass",
+    botanicalName: "Zostera & Posidonia",
+    family: "Marine Angiosperms",
+    category: "Coastal Grass",
+    element: "water",
+    imageUrl: seagrassThumb,
+    shortDesc: "Harvested along brackish saline estuaries, seagrass has a smooth, non-porous cuticle that provides natural stain and water resistance.",
+    durabilityScore: 88,
+    flexibilityScore: 75,
+    moistureTolerance: "High (Naturally Saline-Resistant)",
+    carbonRating: "A+ (Blue Carbon Ecosystem)",
+    nativeRegions: ["Coastal East Asia", "Vietnam", "Mediterranean"],
+    keyApplications: ["Heavy-traffic rugs", "Storage baskets", "Tableware placemats", "Shoe insoles"],
+    harvestCycle: "Bi-annual harvest",
+    badgeColor: "bg-[#14365d] text-white"
+  },
+  {
+    id: "hemp",
+    name: "Industrial Hemp",
+    botanicalName: "Cannabis sativa L.",
+    family: "Cannabaceae",
+    category: "Bast Fiber",
+    element: "earth",
+    imageUrl: hempThumb,
+    shortDesc: "A powerhouse agricultural crop cultivated for millennia, producing the strongest and most rot-resistant plant bast fiber known to science.",
+    durabilityScore: 97,
+    flexibilityScore: 82,
+    moistureTolerance: "High (Naturally Antimicrobial)",
+    carbonRating: "A++ (Deep Taproots Rebuild Soil)",
+    nativeRegions: ["Eurasia", "Central Europe", "North America"],
+    keyApplications: ["Heavy maritime cordage", "Canvas sailcloth", "Hempcrete insulation", "Bio-composites"],
+    harvestCycle: "90 to 120 days",
+    badgeColor: "bg-[#7c482b] text-white"
+  },
+  {
+    id: "abaca",
+    name: "Abaca (Manila Hemp)",
+    botanicalName: "Musa textilis",
+    family: "Musaceae (Banana family)",
+    category: "Hard Leaf Fiber",
+    element: "leaf",
+    imageUrl: abacaThumb,
+    shortDesc: "Extracted from the leaf sheaths of a wild banana relative, abaca fiber is famed for its extreme saltwater endurance and tensile endurance.",
+    durabilityScore: 98,
+    flexibilityScore: 89,
+    moistureTolerance: "Exceptional (Marine Grade)",
+    carbonRating: "A+ (Volcanic Shade Cultivated)",
+    nativeRegions: ["Philippines", "Ecuador", "Costa Rica"],
+    keyApplications: ["Marine hawser lines", "Specialty tea bags & bank notes", "High-end woven lighting", "Automotive composite"],
+    harvestCycle: "18 to 24 months",
+    badgeColor: "bg-[#2a5a46] text-white"
+  }
+];
