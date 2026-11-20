@@ -242,6 +242,26 @@ export default function BlogPostPage() {
               </p>
             </div>
           </div>
+
+          {/* Curatorial Attribution Box (E-E-A-T) */}
+          <div className="p-6 rounded-2xl bg-white border border-[#e8ded1] shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs">
+            <div className="flex items-center gap-3.5">
+              <div className="w-10 h-10 rounded-full bg-[#14365d] text-white flex items-center justify-center font-serif font-bold text-sm shrink-0">
+                NF
+              </div>
+              <div>
+                <span className="font-bold text-[#0c2340] block text-sm">The Natural Fibers Editorial Collective</span>
+                <span className="text-[#718096]">Curated by material scientists, craft conservators & botanical researchers</span>
+              </div>
+            </div>
+            <Link 
+              to="/about#curatorial-governance" 
+              className="text-[#14365d] font-semibold hover:text-[#2a5a46] hover:underline shrink-0 text-xs flex items-center gap-1"
+            >
+              <span>Meet the Team</span>
+              <span>→</span>
+            </Link>
+          </div>
         </main>
 
         {/* Right Sticky Sidebar with Dynamic Scrollspy TOC */}

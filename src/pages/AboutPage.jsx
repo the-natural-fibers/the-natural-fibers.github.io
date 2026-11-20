@@ -200,7 +200,95 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* 5. Independent Research Commitment */}
+      {/* 5. Curatorial Governance & Team E-E-A-T */}
+      <div id="curatorial-governance" className="bg-white rounded-3xl border border-[#e8ded1] p-8 sm:p-10 shadow-sm space-y-8 scroll-mt-24">
+        <div className="max-w-2xl">
+          <span className="text-xs font-bold uppercase tracking-widest text-[#2a5a46]">Curatorial Governance</span>
+          <h2 className="font-serif text-3xl font-bold text-[#0c2340] mt-1 mb-3">
+            The Curatorial Collective Behind The Natural Fibers
+          </h2>
+          <p className="text-sm text-[#4a5568] leading-relaxed">
+            Our publications and comparative material matrices are peer-curated by an interdisciplinary collective spanning botanical taxonomy, craft conservation, and circular material science.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8ded1] space-y-3">
+            <div className="w-12 h-12 rounded-full bg-[#14365d] text-white flex items-center justify-center font-serif font-bold text-lg">
+              EL
+            </div>
+            <div>
+              <h4 className="font-serif text-lg font-bold text-[#0c2340]">Dr. Elena Lin</h4>
+              <span className="text-xs font-semibold text-[#2a5a46] block">Botanical Material Scientist</span>
+            </div>
+            <p className="text-xs text-[#4a5568] leading-relaxed">
+              Specializing in cellulose-lignin polymerization and tensile load dynamics across climbing palms and bast stem fibers.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8ded1] space-y-3">
+            <div className="w-12 h-12 rounded-full bg-[#7c482b] text-white flex items-center justify-center font-serif font-bold text-lg">
+              TA
+            </div>
+            <div>
+              <h4 className="font-serif text-lg font-bold text-[#0c2340]">Thao An Nguyen</h4>
+              <span className="text-xs font-semibold text-[#7c482b] block">Craft & Textile Conservator</span>
+            </div>
+            <p className="text-xs text-[#4a5568] leading-relaxed">
+              Documenting indigenous Southeast Asian wicker guilds, rattan cane steaming, rush conditioning, and natural dye stability.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8ded1] space-y-3">
+            <div className="w-12 h-12 rounded-full bg-[#2a5a46] text-white flex items-center justify-center font-serif font-bold text-lg">
+              MK
+            </div>
+            <div>
+              <h4 className="font-serif text-lg font-bold text-[#0c2340]">Marcus Keller</h4>
+              <span className="text-xs font-semibold text-[#14365d] block">Circular Life-Cycle Analyst</span>
+            </div>
+            <p className="text-xs text-[#4a5568] leading-relaxed">
+              Auditing cradle-to-cradle biodegradation timelines, carbon sequestration rates, and petrochemical replacement thresholds.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* 6. Empirical Testing & Field Verification Methodology */}
+      <div id="empirical-methodology" className="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-[#edf7f2] to-[#faf8f5] border border-[#2a5a46]/20 shadow-xs space-y-6 scroll-mt-24">
+        <div className="max-w-2xl">
+          <span className="text-xs font-bold uppercase tracking-widest text-[#2a5a46]">Empirical Methodology</span>
+          <h2 className="font-serif text-3xl font-bold text-[#0c2340] mt-1 mb-2">
+            How We Verify & Benchmark Botanical Fibers
+          </h2>
+          <p className="text-sm text-[#4a5568] leading-relaxed">
+            To ensure empirical reliability, our material evaluations follow a three-stage verification protocol:
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-[#2d3748]">
+          <div className="p-5 rounded-2xl bg-white border border-[#e8ded1] space-y-2">
+            <span className="font-bold text-base text-[#14365d] block">1. Specimen Collection</span>
+            <p className="leading-relaxed">
+              Direct harvesting and sampling of raw unvarnished stalks, culms, and outer bast fibers from verified artisan cooperatives across Southeast Asia and tropical regions.
+            </p>
+          </div>
+          <div className="p-5 rounded-2xl bg-white border border-[#e8ded1] space-y-2">
+            <span className="font-bold text-base text-[#2a5a46] block">2. Moisture & Load Testing</span>
+            <p className="leading-relaxed">
+              Controlled humidity chamber cycles (40% to 90% RH) tracking fungal onset, volumetric hygroscopic expansion, and longitudinal tensile retention over time.
+            </p>
+          </div>
+          <div className="p-5 rounded-2xl bg-white border border-[#e8ded1] space-y-2">
+            <span className="font-bold text-base text-[#7c482b] block">3. Peer Review & Archiving</span>
+            <p className="leading-relaxed">
+              Cross-benchmarking against published botanical bulletins and international textile testing metrics prior to open release in our GitHub repository.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* 7. Independent Research Commitment */}
       <div className="p-8 rounded-3xl bg-[#0c2340] text-white text-center space-y-4">
         <h3 className="font-serif text-2xl font-bold !text-white text-white">An Independent Educational Guide</h3>
         <p className="text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed">
