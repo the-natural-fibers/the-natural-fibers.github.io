@@ -20,7 +20,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 12, 2026",
     readTime: "7 min read",
-    summary: "<p class=\"c3\">Natural materials are the foundation of architecture, manufacturing, and daily living. While synthetic substances are created through industrial chemical synthesis, natural materials preserve their organic or mineral structures. This guide covers the definition of natural materials, their key benefits, 20 practical examples across 3 primary categories, everyday applications, and an objective look at sustainability.</p>",
+    summary: "Natural materials are the foundation of architecture, manufacturing, and daily living. While synthetic substances are created through industrial chemical synthesis, natural materials preserve their organic or mineral structures. This guide covers the definition of natural materials, their key benefits, 20 practical examples across 3 primary categories, everyday applications, and an objective look at sustainability.",
     keyTakeaways: [
       "Natural materials preserve their organic cellular or mineral structures without synthetic chemical reconfiguration.",
       "Plant-based materials like rattan, bamboo, jute, and hemp offer renewable circular lifecycles that absorb carbon during growth.",
@@ -216,7 +216,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 14, 2026",
     readTime: "6 min read",
-    summary: "<p class=\"c1\">Rattan is the general name for roughly 600 species of climbing palms in the Calamoideae subfamily, native to tropical forests across Southeast Asia, Africa, and eastern Australia. Harvesters collect their solid, flexible, very long stems to make furniture, baskets, light fixtures, and woven goods.</p> <p class=\"c1\">Rattan isn\u2019t wood, bamboo, or plastic. This guide explains what kind of material rattan is, the features that let it bend while staying durable, the distinction between rattan, cane, and wicker, how the plant grows in nature, and its most common uses.</p>",
+    summary: "Rattan is the general name for roughly 600 species of climbing palms in the Calamoideae subfamily, native to tropical forests across Southeast Asia, Africa, and eastern Australia. Harvesters collect their solid, flexible, very long stems to make furniture, baskets, light fixtures, and woven goods. Rattan isn\u2019t wood, bamboo, or plastic. This guide explains what kind of material rattan is, the features that let it bend while staying durable, the distinction between rattan, cane, and wicker, how the plant grows in nature, and its most common uses.",
     keyTakeaways: [
       "Rattan is a solid-core climbing palm belonging to roughly 600 species in the Calamoideae subfamily.",
       "Unlike hollow bamboo or rigid wood, steamed rattan softens easily, allowing artisans to shape complex curved furniture frames.",
@@ -374,7 +374,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 14, 2026",
     readTime: "5 min read",
-    summary: "<p class=\"c4\">Bamboo belongs to a group of mostly evergreen perennial woody grasses in the Bambusoideae subfamily of the grass family (Poaceae), with more than 1,400 species across 115 genera (1). Put simply, bamboo is a grass that grows to the height of a tree: its stems are hollow and jointed, it grows remarkably fast, and it hardens like wood as it matures.</p> <p class=\"c4\">Bamboo thrives mostly in tropical and subtropical regions, particularly in Asia, and it\u2019s used for housing, furniture, paper, textiles, and even food. This guide explains why bamboo counts as a grass instead of a tree, highlights its main traits, and covers what it\u2019s used for.</p>",
+    summary: "Bamboo belongs to a group of mostly evergreen perennial woody grasses in the Bambusoideae subfamily of the grass family (Poaceae), with more than 1,400 species across 115 genera (1). Put simply, bamboo is a grass that grows to the height of a tree: its stems are hollow and jointed, it grows remarkably fast, and it hardens like wood as it matures. Bamboo thrives mostly in tropical and subtropical regions, particularly in Asia, and it\u2019s used for housing, furniture, paper, textiles, and even food. This guide explains why bamboo counts as a grass instead of a tree, highlights its main traits, and covers what it\u2019s used for.",
     keyTakeaways: [
       "Bamboo is a woody perennial grass rather than a tree, growing culms that reach full height within 3 to 4 months.",
       "Its hollow culm and concentrated vascular bundles give bamboo remarkable tensile strength comparable to mild steel.",
@@ -472,7 +472,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 15, 2026",
     readTime: "5 min read",
-    summary: "<p class=\"c1\">Rattan and bamboo are both familiar plant-based materials in home furnishings, but they come from two different plant groups: rattan is a climbing palm with a solid core, while bamboo is a woody grass with hollow stems. That\u2019s why rattan is flexible and can be bent into curves, while bamboo is stiff and usually used in straight forms. If you need woven pieces with curves, like chairs, baskets, or lampshades, choose rattan, if you need straight posts, flooring, blinds, or wall panels, choose bamboo. This guide compares the two materials on structure, flexibility, strength, moisture resistance, cost, and uses.</p>",
+    summary: "Rattan and bamboo are both familiar plant-based materials in home furnishings, but they come from two different plant groups: rattan is a climbing palm with a solid core, while bamboo is a woody grass with hollow stems. That\u2019s why rattan is flexible and can be bent into curves, while bamboo is stiff and usually used in straight forms. If you need woven pieces with curves, like chairs, baskets, or lampshades, choose rattan, if you need straight posts, flooring, blinds, or wall panels, choose bamboo. This guide compares the two materials on structure, flexibility, strength, moisture resistance, cost, and uses.",
     keyTakeaways: [
       "Rattan is a solid-core climbing palm that bends smoothly, while bamboo is a hollow-stemmed grass prized for straight structural loads.",
       "Rattan excels in woven lounge furniture, curved headboards, and baskets, whereas bamboo serves best for flooring, upright posts, and scaffolding.",
@@ -606,7 +606,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 15, 2026",
     readTime: "5 min read",
-    summary: "<p class=\"c0\">The core difference between rattan and wicker is that rattan is a physical material, while wicker is a method of weaving. Rattan comes from the stem of a tropical climbing palm, while wicker is the craft of weaving pliable strands around a frame to create chairs, baskets, and decorative pieces. That means a chair can be wicker woven from real rattan, but not every piece of wicker furniture uses rattan. This guide breaks down how the two differ, what wicker is made from, and which option fits best indoors or outdoors.</p>",
+    summary: "The core difference between rattan and wicker is that rattan is a physical material, while wicker is a method of weaving. Rattan comes from the stem of a tropical climbing palm, while wicker is the craft of weaving pliable strands around a frame to create chairs, baskets, and decorative pieces. That means a chair can be wicker woven from real rattan, but not every piece of wicker furniture uses rattan. This guide breaks down how the two differ, what wicker is made from, and which option fits best indoors or outdoors.",
     keyTakeaways: [
       "Rattan is a specific plant material, whereas wicker is an ancient weaving technique that can use many different materials.",
       "Wicker can be woven from natural rattan, reed, willow, bamboo, or all-weather synthetic resin fibers (HDPE).",
@@ -730,7 +730,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 16, 2026",
     readTime: "6 min read",
-    summary: "<p class=\"c1\">Jute is part of daily life more often than you might realize, showing up in coffee sacks, reusable shopping bags, and living room rugs. This guide breaks down what jute is, where it grows, its history, its key properties, its advantages and disadvantages, how it\u2019s made, and its most common uses.</p>",
+    summary: "Jute is part of daily life more often than you might realize, showing up in coffee sacks, reusable shopping bags, and living room rugs. This guide breaks down what jute is, where it grows, its history, its key properties, its advantages and disadvantages, how it\u2019s made, and its most common uses.",
     keyTakeaways: [
       "Jute is a shiny bast fiber derived from the inner bark of Corchorus plants, second only to cotton in global production volume.",
       "Known as the Golden Fiber, jute is soft underfoot and completely biodegradable, making it popular for area rugs and burlap sacks.",
@@ -883,7 +883,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 16, 2026",
     readTime: "5 min read",
-    summary: "<p class=\"c0\">Seagrass and jute are two of the most popular natural fiber rugs, but they feel very different underfoot and hold up to wear in very different ways. This guide compares their source and origin, feel and texture, durability and maintenance, and how each handles moisture, explains what the \"seagrass\" in rugs actually is, and suggests the best placement for each in your home.</p>",
+    summary: "Seagrass and jute are two of the most popular natural fiber rugs, but they feel very different underfoot and hold up to wear in very different ways. This guide compares their source and origin, feel and texture, durability and maintenance, and how each handles moisture, explains what the \"seagrass\" in rugs actually is, and suggests the best placement for each in your home.",
     keyTakeaways: [
       "Seagrass features a non-porous waxy outer layer that repels liquid spills, while jute has an open, absorbent fiber structure.",
       "Jute feels softer and cozier under barefoot, making it perfect for bedrooms, whereas durable seagrass stands up to dining rooms and entryways.",
@@ -1057,7 +1057,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 17, 2026",
     readTime: "5 min read",
-    summary: "<p class=\"c2\">Hemp rope used to secure the sails of ocean-going vessels, and today you\u2019ll find it in macram\u00e9 projects, stair handrails, and pet toys. This guide walks you through what hemp rope is, the types you\u2019ll run across, its history, its benefits and drawbacks, and its most common uses.</p>",
+    summary: "Hemp rope used to secure the sails of ocean-going vessels, and today you\u2019ll find it in macram\u00e9 projects, stair handrails, and pet toys. This guide walks you through what hemp rope is, the types you\u2019ll run across, its history, its benefits and drawbacks, and its most common uses.",
     keyTakeaways: [
       "Hemp rope is made from strong bast fibers of the industrial Cannabis sativa plant, carrying centuries of maritime history.",
       "It holds knots tightly, stretches very little under tension, and resists UV breakdown far better than synthetic polypropylene ropes.",
@@ -1170,7 +1170,7 @@ export const articlesData = [
     author: "The Natural Fibers Editorial Team",
     publishedDate: "November 17, 2026",
     readTime: "7 min read",
-    summary: "<p class=\"c3\">Abaca shows up in more everyday products than you might think, including tea bags, banknotes, ship ropes, and the Philippines\u2019 traditional formal shirt. This guide covers what abaca is, its history, its main characteristics, its advantages and disadvantages, how the fiber is produced, and the ways it\u2019s commonly used.</p>",
+    summary: "Abaca shows up in more everyday products than you might think, including tea bags, banknotes, ship ropes, and the Philippines\u2019 traditional formal shirt. This guide covers what abaca is, its history, its main characteristics, its advantages and disadvantages, how the fiber is produced, and the ways it\u2019s commonly used.",
     keyTakeaways: [
       "Abaca, or Manila hemp, is extracted from the leaf sheaths of Musa textilis, a close relative of the edible banana plant.",
       "It stands as one of the strongest natural fibers on Earth, exceptionally resistant to saltwater decomposition and mechanical tensile strain.",
